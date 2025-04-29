@@ -12,7 +12,7 @@ function App() {
     const obj = {
       id: Date.now(),
       x: e.clientX - 10,
-      y: e.clientY - 10,
+      y: e.clientY - 50,
       background: color[Math.floor(Math.random() * color.length)]
     }
 
