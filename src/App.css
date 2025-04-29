@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dote {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+.circle{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50; 
+    border: none;
+    border-radius: 5px;
+  }
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  button:hover {
+    background-color: #5c0d3e; 
+    transform: scale(1.05); 
+  }
+  
